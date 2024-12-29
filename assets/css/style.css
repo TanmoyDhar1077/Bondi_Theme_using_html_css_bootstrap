@@ -324,7 +324,7 @@ body {
     border-radius: 25px;
     font-size: 15px;
     font-weight: 500;
-    color: #ffc400;
+    color: #ffc107;
     padding-left: 50px !important;
     padding-right: 50px !important;
     margin-left: 20px;
@@ -334,8 +334,8 @@ body {
     font-size: 15px !important; 
     font-weight: 400 !important;
     color: #ffffff !important;
-    background-color: #ffc400 !important;
-    border: 1px solid #ffc400 !important;
+    background-color: #ffc107 !important;
+    border: 1px solid #ffc107 !important;
     border-bottom: 2px solid #ffffff !important;
     border-radius: 0px !important;
 }
