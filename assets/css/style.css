@@ -402,6 +402,10 @@ body {
     text-decoration: none;
 }
 
+.footer_section .color_2:hover {
+    color: red;
+}
+
 .footer_section .color_4 {
     color: #ffc501;
 }
@@ -423,6 +427,6 @@ body {
     background-color: #ff3150 !important;
 }
 
-.footer_section .color_3:hover{
+.footer_section a:hover{
     color: #00c7c0;
 }
