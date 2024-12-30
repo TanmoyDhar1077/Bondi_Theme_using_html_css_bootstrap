@@ -216,10 +216,53 @@ body {
     background-color: #ff3150 !important;
 }
 
+/* Team Section */
+
+.team_section {
+    padding: 60px 0px;
+    background-color: #eff7fa;
+}
+
+.team_section .color_1 {
+    font-weight: 500;
+    font-size: 35px;
+    color: #ffc501;
+}
+
+.team_section .color_2 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #a1b2b9;
+    margin: 20px 0px;
+}
+
+.team_section .card_title {
+    background-color: #33d1cc;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+.team_section .card_text{
+    font-weight: 400;
+    font-size: 15px;
+    color: #a8b9c0;
+    padding: 10px 10px;
+}
+
+/* .team_section .card_img {
+    transition: all 0.4s ease-in-out;
+}
+
+.team_section .card:hover .card_img {
+    transform: scale(1.1);
+} */
+
 /* Client Section */
 
 .client_section {
-    padding: 70px 0px;
+    padding: 50px 0px;
 }
 
 /* Project Section */
@@ -305,15 +348,12 @@ body {
 
 .newsletter_section {
     background-color: #ffc107;
-    /* Yellow background color */
 }
 
 .newsletter_section .color_1 {
     font-size: 20px;
     font-weight: 400;
-    margin-right: 40px;
-    margin-bottom: 0;
-    align-items: center;
+    margin: 0;
 }
 
 .newsletter_section .form-control {
@@ -327,7 +367,6 @@ body {
     color: #ffc107;
     padding-left: 50px !important;
     padding-right: 50px !important;
-    margin-left: 20px;
 }
 
 .newsletter_section .form-control {
@@ -342,4 +381,48 @@ body {
 
 .newsletter_section input::placeholder {
     color: #ffffff;   
+}
+
+/* Footer Section */
+
+.footer_section {
+    background-color: #19283f;
+    padding: 60px 0px;
+}
+
+.footer_section .color_3 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #a8b9c0;
+    line-height: 30px;
+}
+
+.footer_section .color_2 {
+    color: #00c7c0;
+    text-decoration: none;
+}
+
+.footer_section .color_4 {
+    color: #ffc501;
+}
+
+.footer_section .color_5 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer_section .btn {
+    border-radius: 25px !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+.footer_section .btn-danger {
+    --bs-btn-color: #ffffff !important;
+    background-color: #ff3150 !important;
+}
+
+.footer_section .color_3:hover{
+    color: #00c7c0;
 }
